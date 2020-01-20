@@ -1,0 +1,24 @@
+bibentry(bibtype = "Article",
+  title        = "{PerFit}: An {R} Package for Person-Fit Analysis in {IRT}",
+  author       = c(person(given = c("Jorge", "N."),
+                          family = "Tendeiro",
+                          email = "j.n.tendeiro@rug.nl"),
+                   person(given = c("Rob", "R."),
+                          family = "Meijer"),
+                   person(given = c("A.", "Susan", "M."),
+                          family = "Niessen")),
+  journal      = "Journal of Statistical Software",
+  year         = "2016",
+  volume       = "74",
+  number       = "5",
+  pages        = "1--27",
+  doi          = "10.18637/jss.v074.i05",
+
+  header       = "To cite PerFit in publications use:",
+  textVersion  =
+  paste("Jorge N. Tendeiro, Rob R. Meijer, A. Susan M. Niessen (2016).",
+        "PerFit: An R Package for Person-Fit Analysis in IRT.",
+        "Journal of Statistical Software, 74(5), 1-27.",
+        "doi:10.18637/jss.v074.i05")
+)
+
