@@ -1,11 +1,13 @@
 Package: PerFit
 Type: Package
 Title: Person Fit
-Version: 1.4.3
-Date: 2018-10-03
+Version: 1.4.4
+Date: 2021-01-16
 Author: Jorge N. Tendeiro
 Maintainer: Jorge N. Tendeiro <j.n.tendeiro@rug.nl>
-Description: Several person-fit statistics (PFSs) are offered. These statistics allow assessing whether
+Description: Several person-fit statistics 
+  (PFSs; Meijer and Sijtsma, 2001, <doi:10.1177/01466210122031957>) 
+  are offered. These statistics allow assessing whether
   individual response patterns to tests or questionnaires are (im)plausible given 
   the other respondents in the sample or given a specified item response theory model. Some PFSs apply to 
   dichotomous data, such as the likelihood-based PFSs (lz, lz*) and the group-based PFSs 
@@ -15,4 +17,4 @@ Description: Several person-fit statistics (PFSs) are offered. These statistics 
 Imports: stats, graphics, fda, Hmisc, irtoys, MASS, Matrix
 Depends: ltm, mirt
 License: GPL (>=2)
-RoxygenNote: 6.1.0
+RoxygenNote: 7.1.1

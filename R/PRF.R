@@ -130,7 +130,7 @@ PRFplot <- function (matrix, respID, h=.09, N.FPts=101,
                             lty = 2,lwd = 1.5, href = FALSE, axes = FALSE)
     }
     par(new = TRUE); plot(res1$FDO[respID[i]], lwd = 2, axes = FALSE, ann = FALSE, frame.plot = T,
-                          xlim = c(0, 1), ylim = c(0, 1), href = FALSE)
+                          xlim = c(0, 1), ylim = c(0, 1), href = FALSE, xlab = NA, ylab = NA)
     tmp <- if (is.na(title)) {paste("PRF (respID # ",respID[i],")",sep="")} else {title}
     mtext(side = 3, text = tmp, line = .5, col = "black", cex = Tcex, font = 2)
   }

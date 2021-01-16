@@ -77,6 +77,7 @@ The package underwent a major revision:
 \item A bug was removed from function \code{lzpoly()} (many thanks to Marco Bressan for spotting it!).
 \item The PerFit-package.Rd file was updated (version 1.4.2).
 \item A bug in function \code{U3poly} was fixed (version 1.4.3, October 2018). All credit goes to Marek Muszynski for spotting the issue.
+\item Recent changes to base plot() broke function \code{PRFplot()}. This was now fixed (version 1.4.4, January 2021). I thank Julie Webbs for pointing this out.
 }
 }
 }
