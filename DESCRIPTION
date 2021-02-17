@@ -14,7 +14,7 @@ Description: Several person-fit statistics
   (personal biserial correlation, caution index, (normed) number of Guttman errors, 
   agreement/disagreement/dependability statistics, U3, ZU3, NCI, Ht). PFSs suitable to polytomous data include
   extensions of lz, U3, and (normed) number of Guttman errors. 
-Imports: stats, graphics, fda, Hmisc, irtoys, MASS, Matrix
+Imports: stats, graphics, fda, Hmisc, irtoys, MASS, Matrix 
 Depends: ltm, mirt
 License: GPL (>=2)
 RoxygenNote: 7.1.1
