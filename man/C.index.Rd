@@ -77,7 +77,7 @@ Sato, T. (1975) \emph{The construction and interpretation of S-P tables.} Tokyo:
 
 Zhang, B., and Walker, C. M. (2008) Impact of missing data on person-model fit and person trait estimation. \emph{Applied Psychological Measurement}, \bold{32(6)}, 466--479.
 }
-\author{Jorge N. Tendeiro \email{j.n.tendeiro@rug.nl}}
+\author{Jorge N. Tendeiro \email{tendeiro@hiroshima-u.ac.jp}}
 \seealso{\code{\link{Ht}}}
 \examples{
 # Load the inadequacy scale data (dichotomous item scores):

@@ -54,7 +54,7 @@ This function plots the empirical distribution of the scores of the person-fit s
 The cutoff score may be provided by means of the \code{cutoff.obj} object, otherwise it is internally computed (for which the function parameters \code{ModelFit} through \code{CIlvl} are required; see \code{\link{cutoff}} for more details). The value of the cutoff is superimposed to the plot when \code{Cutoff=TRUE}. In this case, the adequate "flagging region" is colored, thus indicating the range of values for which the person-fit statistic flags respondents as potentially displaying aberrant behavior. The option \code{Both.scale} was introduced to help to better tune the scale of the y-axis. Furthermore, the percentile confidence interval for the cutoff value (with confidence level defined by the \code{cutoff.obj}) is displayed in the x-axis, and ticks marking the flagged respondents are display on the top of the plot.
 }
 
-\author{Jorge N. Tendeiro \email{j.n.tendeiro@rug.nl}}
+\author{Jorge N. Tendeiro \email{tendeiro@hiroshima-u.ac.jp}}
 \seealso{
 \code{\link{cutoff}}, \code{\link{flagged.resp}}, \code{\link{PRFplot}}
 }

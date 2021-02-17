@@ -19,7 +19,7 @@ Function \code{PerFit.SE} computes jackknife standard errors for the scores of t
 A matrix with two columns: \code{PFscores} shows the values of the person-fit statistic and \code{PFscores.SE} shows the estimated standard errors.
 }
 
-\author{Jorge N. Tendeiro \email{j.n.tendeiro@rug.nl}}
+\author{Jorge N. Tendeiro \email{tendeiro@hiroshima-u.ac.jp}}
 
 \examples{
 # Load the inadequacy scale data (dichotomous item scores):

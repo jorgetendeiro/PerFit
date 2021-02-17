@@ -38,7 +38,7 @@ If \code{simplified=TRUE}, a N-by-m data frame is returned, where N is the numbe
 If \code{simplified=FALSE} a list of m \code{PerFit} objects is returned.
 }
 
-\author{Jorge N. Tendeiro \email{j.n.tendeiro@rug.nl}}
+\author{Jorge N. Tendeiro \email{tendeiro@hiroshima-u.ac.jp}}
 
 \examples{
 # Load the inadequacy scale data (dichotomous item scores):

@@ -45,7 +45,7 @@ An object of class "PerFit.cutoff", which is a list with 5 elements:
   \item{Cutoff.CI}{Numeric. Percentile bootstrap (CIlvl)\% confidence interval for the cutoff value.}
 }
 
-\author{Jorge N. Tendeiro \email{j.n.tendeiro@rug.nl}}
+\author{Jorge N. Tendeiro \email{tendeiro@hiroshima-u.ac.jp}}
 \seealso{
 \code{\link{flagged.resp}}, \code{\link{plot.PerFit}}, \code{\link{PRFplot}}
 }

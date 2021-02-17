@@ -16,7 +16,7 @@
 For a given object of class \code{PerFit}, this function displays the scores of the person-fit statistic.
 }
 
-\author{Jorge N. Tendeiro \email{j.n.tendeiro@rug.nl}}
+\author{Jorge N. Tendeiro \email{tendeiro@hiroshima-u.ac.jp}}
 \seealso{
 \code{\link{cutoff}}, \code{\link{flagged.resp}}, \code{\link{plot.PerFit}}, \code{\link{summary.PerFit}}
 }

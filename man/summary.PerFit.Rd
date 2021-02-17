@@ -34,7 +34,7 @@
 For a given object of class \code{PerFit}, this function prints: The PFS used, the cutoff value, the tail of the distribution of the person-fit statistic associated to misfit, the proportion of flagged respondents in the sample, and their row indices.
 }
 
-\author{Jorge N. Tendeiro \email{j.n.tendeiro@rug.nl}}
+\author{Jorge N. Tendeiro \email{tendeiro@hiroshima-u.ac.jp}}
 \seealso{
 \code{\link{cutoff}}, \code{\link{flagged.resp}}, \code{\link{plot.PerFit}}, \code{\link{summary.PerFit}}
 }

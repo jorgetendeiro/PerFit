@@ -50,7 +50,7 @@ If \code{scores=TRUE} the output is a list with four elements:
   \item{\code{Cutoff.lst}}{The corresponding \code{PerFit.cutoff} object.}
   \item{\code{PFS} }{The person-fit statistic.}
 }
-\author{Jorge N. Tendeiro \email{j.n.tendeiro@rug.nl}}
+\author{Jorge N. Tendeiro \email{tendeiro@hiroshima-u.ac.jp}}
 \seealso{
 \code{\link{cutoff}}, \code{\link{plot.PerFit}}, \code{\link{PRFplot}}
 }
