@@ -79,6 +79,7 @@ The package underwent a major revision:
 \item A bug in function \code{U3poly} was fixed (version 1.4.3, October 2018). All credit goes to Marek Muszynski for spotting the issue.
 \item Recent changes to base plot() broke function \code{PRFplot()}. This was now fixed (version 1.4.4, January 2021). I thank Julie Webbs for pointing this out.
 \item Version 1.4.5, February 2021: Updated affiliation.
+\item Version 1.4.6, October 2021: Updated internal function \code{estIP.poly()} to properly manage cases where users supply item and/or person parameters.
 }
 }
 }

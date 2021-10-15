@@ -1,8 +1,8 @@
 Package: PerFit
 Type: Package
 Title: Person Fit
-Version: 1.4.5
-Date: 2021-02-18
+Version: 1.4.6
+Date: 2021-10-14
 Author: Jorge N. Tendeiro
 Maintainer: Jorge N. Tendeiro <tendeiro@hiroshima-u.ac.jp>
 Description: Several person-fit statistics 

@@ -100,16 +100,16 @@ estIP.poly <- function(matrix, Ncat, ip, model)
     # Sanity check - IP matrix adequacy (polytomous):
     Sanity.IPa.poly(ip, I, Ncat)
     ip     <- as.matrix(ip)
-    ip.ltm <- cbind(ip[, -ncol(ip)] * ip[, ncol(ip)], ip[, ncol(ip)])
+    # ip.ltm <- cbind(ip[, -ncol(ip)] * ip[, ncol(ip)], ip[, ncol(ip)])
     ip     <- switch(model,
                  PCM  = gpcm(matrix2, constraint = "rasch", IRT.param = TRUE, 
-                             start.val = unlist(apply(ip.ltm, 1, list), recursive = FALSE), 
+                             start.val = unlist(apply(ip, 1, list), recursive = FALSE), 
                              control = list(iter.qN = 0, optimizer = "optim")),
                  GPCM = gpcm(matrix2, constraint = "gpcm" , IRT.param = TRUE, 
-                             start.val = unlist(apply(ip.ltm, 1, list), recursive = FALSE), 
+                             start.val = unlist(apply(ip, 1, list), recursive = FALSE), 
                              control = list(iter.qN = 0, optimizer = "optim")),
                  GRM  = grm (matrix2, constrained = FALSE , IRT.param = TRUE, 
-                             start.val = unlist(apply(ip.ltm, 1, list), recursive = FALSE), 
+                             start.val = unlist(apply(ip, 1, list), recursive = FALSE), 
                              control = list(iter.qN = 0)))
     ip.coef <- coef(ip)
   }
