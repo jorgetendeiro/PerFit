@@ -121,7 +121,7 @@ Sanity.Abm.poly <- function(method)
 # Sanity.cls(): Sanity check - Class PerFit ----
 Sanity.cls <- function(x)
 {
-  if (class(x) != "PerFit")
+  if (!inherits(x, "PerFit"))
   {
     stop('Object "x" is not of class PerFit. Aborted.')
   }
@@ -130,7 +130,7 @@ Sanity.cls <- function(x)
 # Sanity.clsPO(): Sanity check - Class PerFit.object ----
 Sanity.clsPO <- function(x)
 {
-  if (class(x) != "PerFit.cutoff")
+  if (!inherits(x, "PerFit.cutoff"))
   {
     stop('Object "cutoff.obj" is not of class PerFit.cutoff. Aborted.')
   }

@@ -9,7 +9,7 @@ PerFit.PFS <- function(matrix, method=NULL, simplified=TRUE,
   
   # Sanity check - Are data dichotomous or polytomous?
   data.type <- NA
-  if (class(try(Sanity.dma(matrix, N, I), silent=TRUE)) != "try-error")
+  if (!inherits((try(Sanity.dma(matrix, N, I), silent=TRUE)), "try-error"))
   {
     data.type <- "dico"
     Ncat      <- 2
@@ -17,7 +17,7 @@ PerFit.PFS <- function(matrix, method=NULL, simplified=TRUE,
   {
     Ncat <- max(matrix, na.rm = TRUE) + 1
     M    <- Ncat - 1
-    if (class(try(Sanity.dma.poly(matrix, N, I, M), silent=TRUE)) != "try-error")
+    if (!inherits((try(Sanity.dma.poly(matrix, N, I, M), silent=TRUE)), "try-error"))
     {
       data.type <- "poly"
     } else

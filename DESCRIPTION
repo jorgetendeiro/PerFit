@@ -1,10 +1,12 @@
 Package: PerFit
 Type: Package
 Title: Person Fit
-Version: 1.4.6
-Date: 2021-10-14
-Author: Jorge N. Tendeiro
-Maintainer: Jorge N. Tendeiro <tendeiro@hiroshima-u.ac.jp>
+Version: 1.4.7
+Date: 2025-04-02
+Authors@R: person(given  = c("Jorge", "N."),
+                  family = "Tendeiro",
+                  role   = c("aut", "cre"),
+                  email  = "tendeiro@hiroshima-u.ac.jp")
 Description: Several person-fit statistics 
   (PFSs; Meijer and Sijtsma, 2001, <doi:10.1177/01466210122031957>) 
   are offered. These statistics allow assessing whether
@@ -17,4 +19,3 @@ Description: Several person-fit statistics
 Imports: stats, graphics, fda, Hmisc, irtoys, MASS, Matrix 
 Depends: ltm, mirt
 License: GPL (>=2)
-RoxygenNote: 7.1.1
